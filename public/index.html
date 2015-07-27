@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>angularjs</title>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    
+    <!-- header -->
+    <section class="container" ng-include="'views/header.html'"></section>
+    <!-- body -->
+    <section class="container" ng-view></section>
+    <!-- footer -->
+    <section class="container" ng-include="views/footer.html"></section>
+
+
+    <!-- lib -->
+    <script type="text/javascript" src="lib/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="lib/angular/angular.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="lib/angular-route/angular-route.js"></script>
+    <script type="text/javascript" src="lib/jquery-ui/jquery-ui.js"></script>
+
+
+    <!-- Module mean -->
+    <script type="text/javascript" src="modules/mainModule.js"></script>
+    <script type="text/javascript" src="config/mainRoutes.js"></script>
+    <script type="text/javascript" src="controllers/mainController.js"></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>

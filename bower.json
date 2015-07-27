@@ -1,0 +1,10 @@
+{
+	"name" : "angularjs",
+	"version" : "0.0.1",
+	"dependencies" : {
+		"angular": "",
+		"angular-route": "~1.2",
+		"bootstrap": "",
+		"jquery-ui": ""
+	}
+}
