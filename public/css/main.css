@@ -15,7 +15,9 @@
 	text-shadow: 0.1em 0.1em #333;
 	margin:0px !important;
 }
-
+.page-header li {
+	color:white;
+}
 .page-header spam {
 	margin:0px;
 	
